@@ -16,6 +16,7 @@ struct Edge
 }e[MAXM];
 unsigned int f[MAXM];
 
+//初始化并查集
 void init(unsigned int n)
 {
 	unsigned int i;
@@ -25,6 +26,7 @@ void init(unsigned int n)
 	}
 }
 
+//查找根节点，路径压缩
 unsigned int find(unsigned int i)
 {
 	unsigned int tmp = i;
@@ -41,6 +43,7 @@ unsigned int find(unsigned int i)
 	return tmp;
 }
 
+//合并两个集合
 bool join(unsigned int a, unsigned int b)
 {
 	unsigned int fa = find(a);

@@ -19,6 +19,7 @@ IP aip;
 list<IP>::iterator it1, it2;
 long n;
 
+//将十进制数值转换成二进制串
 string itos(int val)
 {
     string tmp = "00000000";
@@ -31,6 +32,7 @@ string itos(int val)
     return tmp;
 }
 
+//读入ip前缀
 void read()
 {
     while (n--)
@@ -72,6 +74,7 @@ void read()
     }
 }
 
+//从小到大合并
 void merge1()
 {
     int i;
@@ -93,6 +96,7 @@ void merge1()
     }
 }
 
+//同级合并
 void merge2()
 {
     int i, len;
