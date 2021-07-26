@@ -67,7 +67,7 @@ int main()
 	}
 	init(n);
 	sort(e, e + m);
-	for (unsigned int i = 0; i < m; i++)
+	for (long i = 0; i < m; i++)
 	{
 		unsigned int a, b;
 		a = e[i].v;
