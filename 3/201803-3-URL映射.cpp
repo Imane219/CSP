@@ -39,7 +39,7 @@ void read(int i)
 bool read_url(vector<string> &url)
 {
     char c;
-    string s = "";
+    string s = "";//注意初始化
     int flag = 1;
 
     getchar();//读走开头'/'
