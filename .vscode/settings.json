@@ -4,6 +4,8 @@
         "vector": "cpp",
         "map": "cpp",
         "algorithm": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "string": "cpp",
+        "xstring": "cpp"
     }
 }
