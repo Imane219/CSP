@@ -6,6 +6,7 @@
         "algorithm": "cpp",
         "list": "cpp",
         "string": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "unordered_map": "cpp"
     }
 }
